@@ -1,0 +1,46 @@
+// Main footer
+.main-footer {
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+
+    // Lista link
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        // Titolo lista
+        li:first-child {
+            color: white;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            cursor: default;
+        }
+
+        // Elementi lista
+        li a {
+            text-decoration: none;
+            color: #ffffff5f;
+            font-weight: 300;
+
+            transition: color $tr-hover-transition;
+
+
+            &:hover {
+                color: $tr-dc-blue;
+            }
+
+        }
+
+
+    }
+
+    // Logo DC in background
+    .dc-footer-mark {
+        background-image: url('/img/dc-logo-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+}

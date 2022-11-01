@@ -101,6 +101,41 @@ main .main-content .group-tag.btn:hover {
   line-height: 1.25rem;
 }
 
+.main-footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+.main-footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-footer ul li:first-child {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.main-footer ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3725490196);
+  font-weight: 300;
+  transition: color 0.25s;
+}
+
+.main-footer ul li a:hover {
+  color: #0282f9;
+}
+
+.main-footer .dc-footer-mark {
+  background-image: url("/img/dc-logo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .top-footer {
   background-color: #0282f9;
 }
