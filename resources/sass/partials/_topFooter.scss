@@ -1,0 +1,33 @@
+// Top Footer
+.top-footer {
+    background-color: $tr-dc-blue;
+
+    // Links
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        transition: all $tr-hover-transition;
+
+        &:hover {
+            color: $tr-dc-black;
+        }
+
+        // Testo
+        span {
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+
+        // Icona laterale
+        .pre-footer-icon {
+            height: 60px;
+            padding-right: 10px;
+
+            &.svg {
+                width: 70px;
+            }
+        }
+
+    }
+}
