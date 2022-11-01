@@ -37,3 +37,38 @@ header .nav-link.active::after {
   background-color: #0282f9;
 }
 
+main {
+  min-height: 500px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+main .jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 400px;
+}
+
+main .main-content {
+  min-height: 300px;
+}
+
+main .main-content .group-tag {
+  border: 0;
+  background-color: #0282f9;
+  padding: 0 40px;
+  text-transform: uppercase;
+  color: white;
+  cursor: default;
+}
+
+main .main-content .group-tag.position-absolute {
+  transform: translate(0, -50%);
+}
+
+main .main-content .group-tag.btn:hover {
+  color: #464749;
+  cursor: pointer;
+}
+
