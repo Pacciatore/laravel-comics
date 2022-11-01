@@ -1,0 +1,36 @@
+.comic-container {
+
+    row-gap: 2rem;
+
+    cursor: default;
+
+    .comic-thumb {
+        overflow: hidden;
+        height: 200px;
+
+        .comic-info {
+            height: 100%;
+            width: 192px;
+
+            // Uso di colori rgba per permettere l'hover
+            background-color: rgba(0, 0, 0, 0);
+            color: rgba(255, 255, 255, 0);
+
+            transition: all $tr-hover-transition;
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.5);
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+    }
+
+    .comic-series {
+        font-weight: 300;
+        line-height: 1.25rem;
+    }
+
+}

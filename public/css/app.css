@@ -72,3 +72,32 @@ main .main-content .group-tag.btn:hover {
   cursor: pointer;
 }
 
+.comic-container {
+  row-gap: 2rem;
+  cursor: default;
+}
+
+.comic-container .comic-thumb {
+  overflow: hidden;
+  height: 200px;
+}
+
+.comic-container .comic-thumb .comic-info {
+  height: 100%;
+  width: 192px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.comic-container .comic-thumb .comic-info:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+.comic-container .comic-series {
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
