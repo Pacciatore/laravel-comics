@@ -7,6 +7,6 @@
     @include('partials._mainFooter')
 
     <!-- BottomFooter Component Reference -->
-    <BottomFooterComponent />
+    @include('partials._bottomFooter')
 
 </footer>

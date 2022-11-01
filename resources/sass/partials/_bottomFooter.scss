@@ -1,0 +1,29 @@
+// Bottom footer
+.bottom-footer {
+    background-color: $tr-dc-bg-bottom-footer;
+
+
+    .sign-up-btn {
+        background-color: inherit;
+        color: white;
+
+        text-transform: uppercase;
+        border: 2px solid $tr-dc-blue;
+
+        transition: all $tr-hover-transition;
+    }
+
+    .sign-up-btn:hover {
+        color: $tr-dc-blue;
+        border-color: white;
+    }
+
+    .social-invite {
+        color: $tr-dc-blue;
+        cursor: default;
+    }
+
+    .social-link:hover {
+        filter: brightness(50);
+    }
+}

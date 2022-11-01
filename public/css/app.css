@@ -164,3 +164,29 @@ main .main-content .group-tag.btn:hover {
   width: 70px;
 }
 
+.bottom-footer {
+  background-color: #303030;
+}
+
+.bottom-footer .sign-up-btn {
+  background-color: inherit;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid #0282f9;
+  transition: all 0.25s;
+}
+
+.bottom-footer .sign-up-btn:hover {
+  color: #0282f9;
+  border-color: white;
+}
+
+.bottom-footer .social-invite {
+  color: #0282f9;
+  cursor: default;
+}
+
+.bottom-footer .social-link:hover {
+  filter: brightness(50);
+}
+
