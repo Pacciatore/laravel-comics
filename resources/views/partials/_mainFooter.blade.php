@@ -6,6 +6,7 @@
 
             <!-- First column: Site navigation & Shops Links -->
             <div class="col-4">
+                @include('partials._linkList')
                 {{-- <LinkListComponent :listArray="dcNavLinks" /> --}}
                 {{-- <LinkListComponent :listArray="dcShops" /> --}}
             </div>
