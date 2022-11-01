@@ -17,7 +17,7 @@ $headerNavLi = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles',
             <!-- Elementi di navigazione -->
             <ul class="navbar-nav">
                 <?php foreach ($headerNavLi as $navElement) {?>
-                <li class="nav-item item fs-5 px-1">
+                <li class="nav-item item px-1">
                     <a href="#" class="nav-link">
                         {{ $navElement }}
                     </a>

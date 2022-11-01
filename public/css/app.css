@@ -1,0 +1,39 @@
+* {
+  font-family: "Teko", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header .navbar-brand {
+  transition: all 0.25s;
+}
+
+header .navbar-brand:hover {
+  filter: grayscale(1) contrast(5);
+}
+
+header .nav-link {
+  color: #464749;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+
+header .nav-link:hover {
+  color: #0282f9;
+}
+
+header .nav-link.active {
+  color: #0282f9;
+}
+
+header .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -41px;
+  width: 100%;
+  height: 5px;
+  background-color: #0282f9;
+}
+
