@@ -16,6 +16,9 @@
     {{-- Link personal css --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
+    {{-- Link script js --}}
+    <script src="{{ asset('js/app.js') }}"></script>
+
     <title>DC Comics</title>
 </head>
 
