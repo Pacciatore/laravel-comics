@@ -9,10 +9,10 @@ class HomeController extends Controller
     //
     public function index()
     {
-        $data = [
-            "comics" => config('data.comics'),
-            "siteLinks" => config('data.siteLinks'),
-        ];
-        return view('home', $data);
+
+        $comics = config('data.comics');
+        $siteLinks = config('data.siteLinks');
+
+        return view('home', compact('comics', 'siteLinks'));
     }
 }
