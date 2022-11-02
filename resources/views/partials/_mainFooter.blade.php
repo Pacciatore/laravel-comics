@@ -3,24 +3,7 @@
 
         <!-- Footer Links -->
         <div class="col-4 d-flex py-4">
-
-            <!-- First column: Site navigation & Shops Links -->
-
             @include('partials._linkList')
-            {{-- <LinkListComponent :listArray="dcNavLinks" /> --}}
-            {{-- <LinkListComponent :listArray="dcShops" /> --}}
-
-            {{--
-            <!-- Second column: DC Legal Links -->
-            <div class="col-4">
-                <LinkListComponent :listArray="dcLegals" />
-            </div>
-
-            <!-- Third column: DC Sites Links -->
-            <div class="col-4">
-                <LinkListComponent :listArray="sitesList" />
-            </div> --}}
-
         </div>
 
         <!-- Logo nel background -->
