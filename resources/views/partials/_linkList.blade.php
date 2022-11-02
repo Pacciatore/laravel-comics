@@ -1,11 +1,13 @@
-<ul>
-    @foreach ($siteLinks as $linkLi)
-        <li>
-        <li class="fs-3">{{ $linkLi['title'] }}</li>
-        </li>
+@foreach ($siteLinks as $linkLi)
+    <div class="col-4">
+        <ul>
+            <li class="fs-3">{{ $linkLi['title'] }}</li>
 
-        @foreach ($linkLi['elements'] as $liElement)
-            <a href="#">{{ $liElement }}</a>
-        @endforeach
-    @endforeach
-</ul>
+            @foreach ($linkLi['elements'] as $liElement)
+                <li>
+                    <a href="#">{{ $liElement }}</a>
+                </li>
+            @endforeach
+        </ul>
+    </div>
+@endforeach
