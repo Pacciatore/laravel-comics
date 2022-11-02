@@ -8,5 +8,8 @@
         <!-- Main content -->
         @include('partials._mainContent')
 
+        <!-- Blue Band section -->
+        @include('partials._blueBand')
+
     </main>
 @endsection
