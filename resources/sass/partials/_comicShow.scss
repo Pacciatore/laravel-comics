@@ -7,10 +7,10 @@
 
         // text: CURRENT SERIES
         &.position-absolute {
-            transform: translate(0, -50%);
+            transform: translate(0, -75%);
         }
 
-        // text: LOAD MORE
+        // text: BACK
         // durata transition 0.15s ereditata da .btn di bootstrap
         &.btn:hover {
             color: $tr-dc-black;
@@ -18,12 +18,15 @@
         }
 
         border: 0;
-        background-color: $tr-dc-blue;
-        padding: 0 40px;
 
         text-transform: uppercase;
         color: white;
 
         cursor: default;
     }
+
+    .comic-info {
+        padding-top: 200px;
+    }
+
 }
