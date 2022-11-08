@@ -1,15 +1,11 @@
-@extends('layouts.homeLayout')
+@extends('layouts.mainSectionLayout')
 
-@section('content')
-    <main>
+<!-- Main content -->
+@section('_mainContent')
+    @include('partials._mainContent')
+@endsection
 
-        <div class="jumbotron"></div>
-
-        <!-- Main content -->
-        @include('partials._mainContent')
-
-        <!-- Blue Band section -->
-        @include('partials._blueBand')
-
-    </main>
+<!-- Blue Band section -->
+@section('blueBand')
+    @include('partials._blueBand')
 @endsection
