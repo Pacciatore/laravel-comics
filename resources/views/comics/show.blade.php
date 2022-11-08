@@ -2,7 +2,7 @@
 
 @section('_mainContent')
     <div class="comicShow">
-        <div class="comicShow position-relative container">
+        <div class="position-relative container">
 
             <div class="img-container text-center">
                 <img src="{{ asset($comic['thumb']) }}" alt="{{ $comic['title'] }}">
