@@ -1,0 +1,29 @@
+.comicShow {
+    background-color: white;
+    color: $tr-dc-black;
+    min-height: 300px;
+
+    .group-tag {
+
+        // text: CURRENT SERIES
+        &.position-absolute {
+            transform: translate(0, -50%);
+        }
+
+        // text: LOAD MORE
+        // durata transition 0.15s ereditata da .btn di bootstrap
+        &.btn:hover {
+            color: $tr-dc-black;
+            cursor: pointer;
+        }
+
+        border: 0;
+        background-color: $tr-dc-blue;
+        padding: 0 40px;
+
+        text-transform: uppercase;
+        color: white;
+
+        cursor: default;
+    }
+}

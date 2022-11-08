@@ -106,6 +106,30 @@ main .main-content .group-tag.btn:hover {
   line-height: 1.25rem;
 }
 
+.comicShow {
+  background-color: white;
+  color: #464749;
+  min-height: 300px;
+}
+
+.comicShow .group-tag {
+  border: 0;
+  background-color: #0282f9;
+  padding: 0 40px;
+  text-transform: uppercase;
+  color: white;
+  cursor: default;
+}
+
+.comicShow .group-tag.position-absolute {
+  transform: translate(0, -50%);
+}
+
+.comicShow .group-tag.btn:hover {
+  color: #464749;
+  cursor: pointer;
+}
+
 .main-footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
