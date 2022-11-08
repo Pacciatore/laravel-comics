@@ -1,6 +1,6 @@
-@extends('layouts.homeLayout')
+@extends('layouts.mainSectionLayout')
 
-@section('content')
+@section('_mainContent')
     <div class="img-container text-center">
         <img src="{{ asset($comic['thumb']) }}" alt="{{ $comic['title'] }}">
     </div>
