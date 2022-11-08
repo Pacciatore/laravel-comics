@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('/', 'ComicController');
+// TODO: Riaggiungere un index a '/'
+
+Route::resource('comic', 'ComicController');
