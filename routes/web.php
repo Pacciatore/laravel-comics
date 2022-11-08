@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// TODO: Riaggiungere un index a '/'
-Route::get('/', 'HomeController@index');
+Route::get('/', function () {
+    return redirect()->route('comic.index');
+});
 
 Route::resource('comic', 'ComicController');
