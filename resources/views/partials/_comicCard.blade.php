@@ -4,10 +4,13 @@
             <div class="comic-thumb position-relative">
 
                 <!-- Displays on hover -->
-                <div class="comic-info pe-2 position-absolute d-flex flex-column align-items-end justify-content-end">
-                    <div class="comic-type text-capitalize">{{ $comic['type'] }}</div>
-                    <div class="comic-price fs-5">{{ $comic['price'] }}</div>
-                </div>
+                <a href="{{ route('comic.show', $comic->id) }}">
+                    <div
+                        class="comic-info pe-2 position-absolute d-flex flex-column align-items-end justify-content-end">
+                        <div class="comic-type text-capitalize">{{ $comic['type'] }}</div>
+                        <div class="comic-price fs-5">{{ $comic['price'] }}</div>
+                    </div>
+                </a>
 
                 <!-- Comic image -->
                 <img class="img-fluid" src="{{ asset($comic['thumb']) }}" :alt="comic.series">

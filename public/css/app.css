@@ -82,7 +82,12 @@ main .main-content .group-tag.btn:hover {
   height: 200px;
 }
 
-.comic-container .comic-thumb .comic-info {
+.comic-container .comic-thumb a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.comic-container .comic-thumb a .comic-info {
   height: 100%;
   width: 192px;
   background-color: rgba(0, 0, 0, 0);
@@ -91,7 +96,7 @@ main .main-content .group-tag.btn:hover {
   cursor: pointer;
 }
 
-.comic-container .comic-thumb .comic-info:hover {
+.comic-container .comic-thumb a .comic-info:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: rgb(255, 255, 255);
 }
