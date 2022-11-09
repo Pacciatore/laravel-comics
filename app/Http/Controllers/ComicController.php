@@ -29,6 +29,8 @@ class ComicController extends Controller
     public function create()
     {
         //
+        $siteLinks = config('data.siteLinks');
+        return view('comics.create', compact('siteLinks'));
     }
 
     /**
