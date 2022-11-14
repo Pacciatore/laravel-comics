@@ -127,6 +127,9 @@ class ComicController extends Controller
 
     public function confirmDelete(Comic $comic)
     {
-        return view('comics._confirmDelete', compact('comic'));
+        //
+        $siteLinks = config('data.siteLinks');
+
+        return view('comics._confirmDelete', compact('comic', 'siteLinks'));
     }
 }
