@@ -23,7 +23,11 @@
             {{-- Descrizione fumetto --}}
             <div class="col-12 d-flex flex-column align-items-start justify-content-center">
                 <label for="description">Descrizione: </label>
-                <input type="text" name="description" id="description" value="{{ old('description') }}">
+
+                <textarea name="description" id="description" cols="100" rows="10">
+                    {{ old('description') }}
+                </textarea>
+
                 @error('description')
                     <div class="alert alert-danger error-message">
                         {{ $message }}
