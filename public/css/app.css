@@ -226,6 +226,15 @@ main .main-content .group-tag.btn:hover {
   cursor: pointer;
 }
 
+.comic-delete-confirmation {
+  padding-top: 200px;
+  position: relative;
+}
+
+.comic-delete-confirmation .btn-bottom {
+  bottom: 3rem;
+}
+
 .main-footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
