@@ -1,0 +1,56 @@
+#editComic {
+    background-color: white;
+
+    .edit-content {
+        position: relative;
+
+        // Custom messaggio d'errore validation
+        .error-message {
+            position: absolute;
+            right: 0;
+
+            margin: 0;
+            margin-top: 1rem;
+        }
+
+        // Allineamento backButton con submit
+        .btn-bottom {
+            bottom: 1.5rem;
+        }
+
+        // Edit Form
+        form {
+            height: 100%;
+
+            label,
+            input {
+                width: 44%;
+            }
+
+            .btn-submit {
+                width: 10%;
+            }
+
+        }
+
+        // Barra bottoni di navigazione
+        .btn-bar {
+
+            .btn-outline-danger {
+                a {
+                    color: inherit;
+                }
+
+                color: $tr-dc-black;
+
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+
+    }
+}

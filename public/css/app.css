@@ -178,7 +178,7 @@ main .main-content .group-tag.btn:hover {
 
 #createComic form label,
 #createComic form input {
-  width: 33%;
+  width: 44%;
 }
 
 #editComic {
@@ -186,7 +186,6 @@ main .main-content .group-tag.btn:hover {
 }
 
 #editComic .edit-content {
-  height: 75vh;
   position: relative;
 }
 
@@ -207,7 +206,24 @@ main .main-content .group-tag.btn:hover {
 
 #editComic .edit-content form label,
 #editComic .edit-content form input {
-  width: 33%;
+  width: 44%;
+}
+
+#editComic .edit-content form .btn-submit {
+  width: 10%;
+}
+
+#editComic .edit-content .btn-bar .btn-outline-danger {
+  color: #464749;
+}
+
+#editComic .edit-content .btn-bar .btn-outline-danger a {
+  color: inherit;
+}
+
+#editComic .edit-content .btn-bar .btn-outline-danger:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .main-footer {
