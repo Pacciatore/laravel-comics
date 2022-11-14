@@ -139,6 +139,19 @@ main .main-content .group-tag.btn:hover {
   padding-top: 200px;
 }
 
+.comicShow .btn-bar .btn-outline-danger {
+  color: #464749;
+}
+
+.comicShow .btn-bar .btn-outline-danger a {
+  color: inherit;
+}
+
+.comicShow .btn-bar .btn-outline-danger:hover {
+  color: white;
+  cursor: pointer;
+}
+
 #createComic {
   position: relative;
 }

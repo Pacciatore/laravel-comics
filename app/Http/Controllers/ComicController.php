@@ -82,6 +82,9 @@ class ComicController extends Controller
     public function edit(Comic $comic)
     {
         //
+        $siteLinks = config('data.siteLinks');
+
+        return view('comics.edit', compact('comic', 'siteLinks'));
     }
 
     /**
