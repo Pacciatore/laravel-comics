@@ -139,6 +139,35 @@ main .main-content .group-tag.btn:hover {
   padding-top: 200px;
 }
 
+#createComic {
+  position: relative;
+}
+
+#createComic .error-message {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+#createComic .btn-bottom {
+  position: absolute;
+  bottom: 3rem;
+}
+
+#createComic .btn-to-index {
+  right: 0;
+}
+
+#createComic form {
+  height: 100%;
+}
+
+#createComic form label,
+#createComic form input {
+  width: 33%;
+}
+
 .main-footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;

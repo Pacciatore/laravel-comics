@@ -5,7 +5,10 @@
 @import 'partials/_header.scss';
 @import 'partials/_main.scss';
 @import 'partials/_comicCard.scss';
+
+// Comic CRUD scss
 @import 'partials/comicShow';
+@import 'partials/comicCreate';
 
 @import 'partials/_mainFooter.scss';
 @import 'partials/_topFooter.scss';
