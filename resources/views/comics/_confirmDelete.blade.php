@@ -26,10 +26,10 @@
                     @csrf
                     @method('DELETE')
 
-                    <input type="submit" value="Sì" class="btn btn-primary">
+                    <input type="submit" value="Sì" class="btn btn-danger">
                 </form>
 
-                <div class="btn btn-primary btn-bottom ms-5 position-absolute">
+                <div class="btn btn-secondary btn-bottom ms-5 position-absolute">
                     <a class="text-white text-decoration-none" href="{{ route('comic.show', $comic->id) }}">No</a>
                 </div>
 
@@ -41,9 +41,8 @@
                 <div class="btn btn-primary">
                     <a class="text-white text-decoration-none" href="{{ route('comic.index') }}">Back to Homepage</a>
                 </div>
-
-                <div class="btn btn-primary">
-                    <a class="text-white text-decoration-none" href="{{ route('comic.edit', $comic->id) }}">Back to
+                <div class="btn btn-info">
+                    <a class="text-white text-decoration-none" href="{{ route('comic.edit', $comic->id) }}">Go to
                         Edit</a>
                 </div>
 
