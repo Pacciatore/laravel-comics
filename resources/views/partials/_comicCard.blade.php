@@ -1,7 +1,7 @@
 <div class="comic-container d-flex flex-wrap pt-3 g-0">
     @foreach ($comics as $comic)
         <div class="col-2">
-            <div class="comic-thumb position-relative">
+            <div class="comic-thumb position-relative me-2">
 
                 <!-- Displays on hover -->
                 <a href="{{ route('comic.show', $comic->id) }}">

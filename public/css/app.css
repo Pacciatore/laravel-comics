@@ -96,7 +96,7 @@ main .main-content .group-tag.btn:hover {
 
 .comic-container .comic-thumb a .comic-info {
   height: 100%;
-  width: 192px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0);
   transition: all 0.25s;
