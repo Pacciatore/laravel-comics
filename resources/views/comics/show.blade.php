@@ -11,7 +11,7 @@
             {{-- Immagine del comic --}}
             <div class="group-tag position-absolute fs-1 pt-1">
                 <div class="img-container text-center">
-                    <img src="{{ asset($comic['thumb']) }}" alt="{{ $comic['title'] }}">
+                    <img class="img-fluid" src="{{ asset($comic['thumb']) }}" alt="{{ $comic['title'] }}">
                 </div>
             </div>
 

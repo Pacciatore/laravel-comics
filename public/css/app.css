@@ -126,6 +126,10 @@ main .main-content .group-tag.btn:hover {
   cursor: default;
 }
 
+.comicShow .group-tag img {
+  max-height: 40vh;
+}
+
 .comicShow .group-tag.position-absolute {
   transform: translate(0, -75%);
 }

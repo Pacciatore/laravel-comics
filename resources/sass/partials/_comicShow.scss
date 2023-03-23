@@ -5,6 +5,10 @@
 
     .group-tag {
 
+        img {
+            max-height: 40vh;
+        }
+
         // text: CURRENT SERIES
         &.position-absolute {
             transform: translate(0, -75%);
